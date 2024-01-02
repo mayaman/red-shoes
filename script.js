@@ -1,4 +1,4 @@
-import shoeData from './shoedata.json' assert {type: 'json'};
+import shoeData from './depopdata.json' assert {type: 'json'};
 
 let shoes = [];
 let shoeIndex = 1;
@@ -31,16 +31,6 @@ function kickoff() {
     setInterval(() => {
         checkOnShoes();
     }, 10000);
-    // scrollDown();
-
-
-    // Organized grid approach
-    // for (let i = 0; i < numGridSpaces; i++) {
-    //     let dataIndex = i % shoeData.length;
-    //     spaces[i] = new Space(i, shoeData[dataIndex]);
-    // }
-
-    // chooseNewTypingSpace();
 }
 let synth;
 document.addEventListener('click', () => {
@@ -63,33 +53,6 @@ function scrollDown() {
         window.scrollBy(0, scrollStep);
         setTimeout(scrollDown, 88);
     }
-}
-
-
-function scrollToTop(duration) {
-    var scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
-    var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    var scrollStep = -window.scrollY / (duration / 15);
-
-    function scroll() {
-        if (window.scrollY !== 0) {
-            window.scrollBy(0, scrollStep);
-            setTimeout(scroll, 15);
-        }
-    }
-
-    scroll();
-
-    setTimeout(function () {
-        var scrollStep = scrollHeight / (duration / 15);
-        function scrollDown() {
-            if (window.scrollY < scrollHeight - windowHeight) {
-                window.scrollBy(0, scrollStep);
-                setTimeout(scrollDown, 15);
-            }
-        }
-        scrollDown();
-    }, duration);
 }
 
 function chooseNewTypingSpace() {

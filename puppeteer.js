@@ -27,7 +27,14 @@ const puppeteer = require('puppeteer');
         }
     ));
 
-    console.log(urls);
+    // console.log(urls, { 'maxArrayLength': null });
+
+    urls.forEach((url) => {
+
+        if (url) {
+            console.log(JSON.stringify(url) + ',');
+        }
+    });
 
 
     // Dispose of handle
