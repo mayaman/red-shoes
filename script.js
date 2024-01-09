@@ -25,120 +25,30 @@ function getRandomFloat(min, max) {
 let obsession;
 // Function to randomly place images on the webpage
 function kickoff() {
-    obsession = document.getElementById("current-obsession");
-    // preloadShoes(10);
+    // obsession = document.getElementById("current-obsession");
     addNewShoe();
     setInterval(() => {
         checkOnShoes();
     }, 10000);
 }
 let synth;
+let started = false;
+
 document.addEventListener('click', () => {
-    kickoff();
+    if (!started) {
+        started = true;
+        // Create a synth and connect it to the main output (your speakers)
+        synth = new Tone.Synth().toDestination();
 
-    //create a synth and connect it to the main output (your speakers)
-    synth = new Tone.Synth().toDestination();
+        // set shoedataindex
+        shoeIndex = getRandomNumber(0, shoeData.length);
 
-    //play a middle 'C' for the duration of an 8th note
+        kickoff();
+        document.getElementById('intro').style.visibility = 'hidden';
+    }
 });
 
-function scrollDown() {
-    var scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
-    var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-
-    var duration = 5000;
-    var scrollStep = 1;
-
-    if (window.scrollY < scrollHeight - windowHeight) {
-        window.scrollBy(0, scrollStep);
-        setTimeout(scrollDown, 88);
-    }
-}
-
-function chooseNewTypingSpace() {
-
-    let randomSpaceIndex = getRandomNumber(0, numGridSpaces - 1);
-    spaces[randomSpaceIndex].type();
-}
-
-class Space {
-    constructor(index, data) {
-        this.container = document.getElementById("space-" + index);
-
-        const a = getRandomNumber(-5, 5);
-        this.container.style.transform = "rotate(" + a + "deg)";
-
-        this.img = new Image();
-        this.pictures = data["pictures"];
-        this.img.src = this.pictures[0][6]['url'];
-        this.img.classList.add("red-shoe");
-
-        this.container.appendChild(this.img);
-
-        this.description = data["description"];
-
-        this.pictureIndex = 0;
-        this.numPictures = this.pictures.length;
-        this.pictureTimeout = getRandomNumber(1111, 8888);
-
-        this.dance(this.pictureTimeout);
-
-        this.descriptionIndex = 0;
-        this.typing = false;
-    }
-
-    dance(currTimeout) {
-        // this.pictureTimeout = getRandomNumber(555, 1111);
-        setTimeout(() => {
-            this.pictureIndex = (this.pictureIndex + 1) % this.numPictures;
-            this.img.src = this.pictures[this.pictureIndex][6]['url'];
-            this.dance(this.pictureTimeout)
-        }, currTimeout);
-    }
-
-    type() {
-        this.descriptionWrapper = document.createElement('div');
-        // this.descriptionWrapper.innerText = this.description;
-        this.descriptionWrapper.classList.add("shoe-description");
-        this.container.innerHTML = "";
-        this.container.appendChild(this.descriptionWrapper);
-
-        this.typing = true;
-        this.typeDescription();
-    }
-
-    resetToImage() {
-        this.container.removeChild(this.descriptionWrapper);
-        this.container.appendChild(this.img);
-    }
-
-    typeDescription() {
-        setTimeout(() => {
-            if (this.descriptionIndex < this.description.length) {
-                this.descriptionWrapper.innerText = this.description.substring(0, this.descriptionIndex);
-                this.descriptionIndex++;
-                this.descriptionWrapper.scrollTop = this.descriptionWrapper.scrollHeight;
-
-                this.typeDescription();
-            } else {
-                this.typing = false;
-                this.resetToImage();
-                chooseNewTypingSpace();
-            }
-        }, 47);
-    }
-}
-
 let waitingToAddShoe = false;
-
-function preloadShoes(numPreloadedShoes) {
-    for (let i = 0; i < numPreloadedShoes; i++) {
-        currentShoe = new Shoe(shoeData[shoeIndex]);
-        currentShoe.toTheEnd();
-        shoes.push(currentShoe);
-        shoeIndex = (shoeIndex + 1) % shoeData.length;
-    }
-}
 
 function addNewShoe() {
     waitingToAddShoe = false;
@@ -155,26 +65,7 @@ function checkOnShoes() {
             waitingToAddShoe = false;
             addNewShoe();
         }, 22);
-
-
-        // if (currentShoe && currentShoe.typing) {
-        // } else if (!waitingToAddShoe) {
-        //     // Adding new shoe
-        //     waitingToAddShoe = true;
-        //     console.log('waiting to add shoe: ', waitingToAddShoe);
-
-        // }
     }
-
-    // else if (!waitingToAddShoe) {
-    //     waitingToAddShoe = true;
-    //     setTimeout(() => {
-    //         waitingToAddShoe = false;
-    //         shoeIndex = 0;
-    //     }, 2000);
-    // } else {
-    //     console.log('waiting to add shoe!!!')
-    // }
 }
 
 // Call the function to randomly place images when the page loads
@@ -218,9 +109,9 @@ class Shoe {
         this.img.src = data["pictures"][this.pictureIndex][6]['url'];
         this.img.draggable = true;
 
-        const description = document.createElement('div');
-        description.innerText = data["description"];
-        description.classList.add("shoe-description");
+        // const description = document.createElement('div');
+        // description.innerText = data["description"];
+        // description.classList.add("shoe-description");
 
         // Set random size (width and height) for the image
         // this.size = getRandomNumber(11, 500);
@@ -273,7 +164,7 @@ class Shoe {
 
         // Append the image to the body
         this.section.appendChild(this.img);
-        // this.section.appendChild(description);
+        // this.section.appendChild(this.descriptionWrapper);
         main.appendChild(this.section);
         main.appendChild(this.descriptionWrapper);
         this.pictureTimeout = getRandomNumber(100, 1000);
@@ -302,11 +193,7 @@ class Shoe {
             baseUrl: "https://tonejs.github.io/audio/salamander/",
         }).toDestination();
 
-        // Tone.loaded().then(() => {
-        //     this.sampler.triggerAttackRelease(["Eb4"], 100);
-        // });
-
-        this.typingSpeedOptions = [22, 88, 111, 222, 555, 888, 1111, 2222]; // 11, 55, 88, 
+        this.typingSpeedOptions = [33, 88, 111, 222, 555, 888, 1111, 2222]; // 11, 55, 88, 
         this.typingSpeed = getRandomChoice(this.typingSpeedOptions);
         this.maxTypingNum = this.typingSpeed;
         this.pictureTimeout = this.typingSpeed;
