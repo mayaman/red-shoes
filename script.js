@@ -34,7 +34,7 @@ function kickoff() {
 let synth;
 let started = false;
 
-document.getElementById("intro").addEventListener('click', () => {
+document.addEventListener('click', () => {
     if (Tone && !started) {
         started = true;
         // Create a synth and connect it to the main output (your speakers)
@@ -44,25 +44,7 @@ document.getElementById("intro").addEventListener('click', () => {
         shoeIndex = getRandomNumber(0, shoeData.length);
 
         kickoff();
-        document.getElementById('intro').style.color = 'blue';
-        // document.getElementById('intro').style.visibility = 'hidden';
-    } else {
-        location.reload();
-    }
-});
-
-document.getElementById("intro").addEventListener('touchstart', () => {
-    if (Tone && !started) {
-        started = true;
-        // Create a synth and connect it to the main output (your speakers)
-        synth = new Tone.Synth().toDestination();
-
-        // set shoedataindex
-        shoeIndex = getRandomNumber(0, shoeData.length);
-
-        kickoff();
-        document.getElementById('intro').style.color = 'blue';
-        // document.getElementById('intro').style.visibility = 'hidden';
+        document.getElementById('intro').style.visibility = 'hidden';
     } else {
         location.reload();
     }
