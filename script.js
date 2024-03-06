@@ -34,7 +34,7 @@ function kickoff() {
 let synth;
 let started = false;
 
-document.addEventListener('click', () => {
+document.body.addEventListener('click', () => {
     if (!started) {
         started = true;
         // Create a synth and connect it to the main output (your speakers)
