@@ -34,8 +34,8 @@ function kickoff() {
 let synth;
 let started = false;
 
-document.body.addEventListener('click', () => {
-    if (!started) {
+document.getElementById("intro").addEventListener('click', () => {
+    if (Tone && !started) {
         started = true;
         // Create a synth and connect it to the main output (your speakers)
         synth = new Tone.Synth().toDestination();
@@ -44,7 +44,7 @@ document.body.addEventListener('click', () => {
         shoeIndex = getRandomNumber(0, shoeData.length);
 
         kickoff();
-        document.getElementById('intro').style.display = 'none';
+        document.getElementById('intro').style.visibility = 'hidden';
     } else {
         location.reload();
     }
@@ -127,7 +127,6 @@ class Shoe {
             this.fontSize = 24;
         }
         // this.size = window.innerWidth * 0.11; // 111 px
-        console.log('window.innerWidth * 0.15: ', window.innerWidth)
         this.img.width = this.size;
         this.section.style.width = this.size + "px";
         this.section.style.height = this.size + "px";
@@ -161,7 +160,6 @@ class Shoe {
         const maxHeight = testDiv.clientHeight;
         const maxWidth = testDiv.clientWidth;
 
-        console.log("max height: ", maxHeight);
         this.descriptionWrapper = document.createElement('div');
         this.descriptionWrapper.classList.add("current-obsession");
         this.descriptionWrapper.style.fontSize = this.fontSize + "px";
@@ -184,15 +182,11 @@ class Shoe {
         const offsetOptions = [-0.05];
         // this.yOffset = getRandomFloat(-0.1, 0.1);
         this.yOffset = getRandomChoice(offsetOptions);
-        console.log('Y OFFSET: ', this.yOffset);
         while (this.yOffset == 0) {
             this.yOffset = getRandomFloat(-0.1, 0.1);
         }
 
         this.xOffset = getRandomFloat(-1, 1);
-
-        // this.float();
-        // this.dance(this.pictureTimeout);
 
         this.sampler = new Tone.Sampler({
             urls: {
