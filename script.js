@@ -44,7 +44,8 @@ document.getElementById("intro").addEventListener('click', () => {
         shoeIndex = getRandomNumber(0, shoeData.length);
 
         kickoff();
-        document.getElementById('intro').style.visibility = 'hidden';
+        document.getElementById('intro').style.color = 'limegreen';
+        // document.getElementById('intro').style.visibility = 'hidden';
     } else {
         location.reload();
     }
