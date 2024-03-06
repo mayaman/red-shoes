@@ -29,7 +29,7 @@ function kickoff() {
     addNewShoe();
     setInterval(() => {
         checkOnShoes();
-    }, 1000); // 10000
+    }, 10000); // 10000
 }
 let synth;
 let started = false;
@@ -44,7 +44,9 @@ document.addEventListener('click', () => {
         shoeIndex = getRandomNumber(0, shoeData.length);
 
         kickoff();
-        document.getElementById('intro').style.visibility = 'hidden';
+        document.getElementById('intro').style.display = 'none';
+    } else {
+        location.reload();
     }
 });
 
@@ -205,7 +207,6 @@ class Shoe {
 
         this.typingSpeedOptions = [33, 88, 111, 222, 555, 888, 1111, 2222]; // 11, 55, 88, 
         this.typingSpeed = getRandomChoice(this.typingSpeedOptions);
-        this.typingSpeed = 33;
         this.maxTypingNum = this.typingSpeed;
         this.pictureTimeout = this.typingSpeed;
     }
