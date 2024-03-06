@@ -29,7 +29,7 @@ function kickoff() {
     addNewShoe();
     setInterval(() => {
         checkOnShoes();
-    }, 10000);
+    }, 1000); // 10000
 }
 let synth;
 let started = false;
@@ -99,11 +99,7 @@ class Shoe {
         this.description = data.description;
         this.descriptionIndex = 0;
 
-
         this.scale = AMinorScale;
-
-
-
 
         this.img = new Image();
         this.img.src = data["pictures"][this.pictureIndex][6]['url'];
@@ -115,7 +111,21 @@ class Shoe {
 
         // Set random size (width and height) for the image
         // this.size = getRandomNumber(11, 500);
-        this.size = 111;
+        if (window.innerWidth >= 4000) {
+            this.size = 444;
+            this.fontSize = 86;
+        } else if (window.innerWidth >= 2000) {
+            this.size = 222;
+            this.fontSize = 48;
+        } else if (window.innerWidth >= 1000) {
+            this.size = 111;
+            this.fontSize = 24;
+        } else {
+            this.size = 88;
+            this.fontSize = 24;
+        }
+        // this.size = window.innerWidth * 0.11; // 111 px
+        console.log('window.innerWidth * 0.15: ', window.innerWidth)
         this.img.width = this.size;
         this.section.style.width = this.size + "px";
         this.section.style.height = this.size + "px";
@@ -135,7 +145,7 @@ class Shoe {
 
 
         // Test to calculate height / width
-        this.fontSize = 24;
+        // this.fontSize = 24;
         this.maxTextWidth = window.innerWidth * 0.9;
 
         const testDiv = document.createElement("div");
@@ -195,6 +205,7 @@ class Shoe {
 
         this.typingSpeedOptions = [33, 88, 111, 222, 555, 888, 1111, 2222]; // 11, 55, 88, 
         this.typingSpeed = getRandomChoice(this.typingSpeedOptions);
+        this.typingSpeed = 33;
         this.maxTypingNum = this.typingSpeed;
         this.pictureTimeout = this.typingSpeed;
     }
