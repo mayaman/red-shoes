@@ -1,4 +1,5 @@
-import shoeData from './depopdata.json' assert {type: 'json'};
+// import shoeData from './depopdata.json' assert {type: 'json'};
+const { default: shoeData } = await import("./depopdata.json", { assert: { type: "json" } });
 
 let shoes = [];
 let shoeIndex = 1;
