@@ -1,11 +1,3 @@
-// import shoeData from './depopdata.json';
-// const { default: shoeData } = await import("./depopdata.json", { assert: { type: "json" } });
-// import * as data from './depopdata.json' with { type: "json" };
-// console.log(data); // output 'testing'
-
-// const { shoeData } = data;
-// console.log(shoeData); // output 'testing'
-
 const response = await fetch('./depopdata.json');
 const shoeData = await response.json();
 console.log(shoeData); // output 'testing'
