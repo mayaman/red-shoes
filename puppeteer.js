@@ -6,13 +6,37 @@ const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-    await page.goto('https://www.depop.com/search/?q=ballet+flats&categories=14&colours=red&sort=relevance');
+    await page.goto('https://www.depop.com/search/?q=ballet+flats&categories=14&colours=red&sort=relevance', {
+        waitUntil: 'networkidle2'
+    });
 
-    const acceptButton = await page.waitForSelector(".fFJfAu");
-    //   await page.focus(acceptButton);
+    const cookieSelectors = [
+        'button[data-testid="gdpr-banner-accept"]',
+        'button[aria-label="Accept"]',
+        'button[aria-label="Accept All"]',
+        '.fFJfAu'
+    ];
 
-    console.log(acceptButton);
-    await acceptButton.click();
+    let acceptButton;
+
+    for (const selector of cookieSelectors) {
+        try {
+            acceptButton = await page.waitForSelector(selector, { timeout: 5000 });
+            if (acceptButton) {
+                console.log(`Cookie prompt matched selector: ${selector}`);
+                break;
+            }
+        } catch (err) {
+            // Ignore missing selector and fall through to check the next candidate.
+        }
+    }
+
+    if (acceptButton) {
+        await acceptButton.click();
+        await acceptButton.dispose();
+    } else {
+        console.warn('Cookie banner not detected; continuing without dismissing it.');
+    }
 
     await autoScroll(page);
 
@@ -35,11 +59,6 @@ const puppeteer = require('puppeteer');
             console.log(JSON.stringify(url) + ',');
         }
     });
-
-
-    // Dispose of handle
-    await acceptButton.dispose();
-
     await page.screenshot({ path: 'redflats.png' });
 
 

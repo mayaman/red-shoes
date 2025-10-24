@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "puppeteer": "^21.6.1",
     "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.23.0"
   }
 }

@@ -1,15 +1,17 @@
 const response = await fetch('./depopdata.json');
+// const ogShoeData = await response.json();
 const shoeData = await response.json();
 console.log(shoeData); // output 'testing'
 
 let shoes = [];
-let shoeIndex = 1;
+let shoeIndex = 0;
 let currentShoe;
 
 let spaces = [];
 let numGridSpaces = 20;
 
 let main = document.getElementById("main");
+
 
 // Function to get a random number within a range
 function getRandomNumber(min, max) {
@@ -25,9 +27,16 @@ function getRandomFloat(min, max) {
 }
 
 let obsession;
+let colorPalette = getRandomChoice([
+    ['white', 'red'],
+    ['red', 'black'],
+    ['black', 'white']
+]);
 // Function to randomly place images on the webpage
 function kickoff() {
     // obsession = document.getElementById("current-obsession");
+    document.body.style.backgroundColor = colorPalette[0];
+    console.log("new background color: ", colorPalette);
     addNewShoe();
     setInterval(() => {
         checkOnShoes();
@@ -36,7 +45,7 @@ function kickoff() {
 let synth;
 let started = false;
 
-document.addEventListener('click', () => {
+setTimeout(() => {
     if (Tone && !started) {
         started = true;
         // Create a synth and connect it to the main output (your speakers)
@@ -50,15 +59,45 @@ document.addEventListener('click', () => {
     } else {
         location.reload();
     }
-});
+}, 2222)
+
+// document.addEventListener('click', () => {
+//     if (Tone && !started) {
+//         started = true;
+//         // Create a synth and connect it to the main output (your speakers)
+//         synth = new Tone.Synth().toDestination();
+
+//         // set shoedataindex
+//         shoeIndex = getRandomNumber(0, shoeData.length);
+
+//         kickoff();
+//         document.getElementById('intro').style.visibility = 'hidden';
+//     } else {
+//         location.reload();
+//     }
+// });
 
 let waitingToAddShoe = false;
 
 function addNewShoe() {
     waitingToAddShoe = false;
     currentShoe = new Shoe(shoeData[shoeIndex]);
+    console.log('adding shoe at index: ', shoeIndex)
     shoes.push(currentShoe);
-    shoeIndex = (shoeIndex + 1) % shoeData.length;
+    shoeIndex++;
+    if (shoeIndex >= shoeData.length) {
+        // RESET
+        colorPalette = getRandomChoice([
+            ['white', 'red'],
+            ['red', 'black'],
+            ['black', 'white']
+        ]);
+        document.body.style.backgroundColor = colorPalette[0];
+        shoes.forEach(shoe => shoe.remove());
+        shoes = [];
+        shoeIndex = 0;
+        addNewShoe()
+    }
 }
 
 function checkOnShoes() {
@@ -164,6 +203,7 @@ class Shoe {
 
         this.descriptionWrapper = document.createElement('div');
         this.descriptionWrapper.classList.add("current-obsession");
+        this.descriptionWrapper.style.color = colorPalette[1];
         this.descriptionWrapper.style.fontSize = this.fontSize + "px";
         this.descriptionWrapper.style.top = `${getRandomNumber(0, window.innerHeight - maxHeight)}px`;
         // this.descriptionWrapper.style.maxWidth = this.maxTextWidth + "px";
@@ -281,6 +321,11 @@ class Shoe {
                 this.img.src = this.pictures[this.pictureIndex][6]['url'];
             }
         }, this.pictureTimeout);
+    }
+
+    remove() {
+        this.section.remove();
+        this.descriptionWrapper.remove()
     }
 }
 

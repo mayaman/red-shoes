@@ -1,0 +1,725 @@
+{
+  "scraped_at": "2025-10-24T16:14:59.887428Z",
+  "products": [
+    {
+      "id": "signup",
+      "source_url": "https://www.depop.com/signup/?redirect=%2Fproducts%2Fcreate%2F&titleKey=FreeFees.SignUpToSell",
+      "title": "Depop - buy, sell, discover unique fashion",
+      "description": "Designer. Preloved. Vintage. Streetwear. Sneakers. Whatever your style. Find it on Depop.",
+      "price": null,
+      "currency": null,
+      "folder": "signup",
+      "images": []
+    },
+    {
+      "id": "autumnhepola-burgundy-ballerina-flats-worn-once",
+      "source_url": "https://www.depop.com/products/autumnhepola-burgundy-ballerina-flats-worn-once/",
+      "title": "Burgundy ballerina flats, worn once, size 6, great...",
+      "description": "Burgundy ballerina flats, worn once, size 6, great condition!\n Meant for a little wider feet \nburgundy flats, ballet shoes, pointed toe, slip-on, chic, minimalist, everyday wear, comfortable, casual footwear, versatile",
+      "price": "15.00",
+      "currency": "USD",
+      "folder": "autumnhepola-burgundy-ballerina-flats-worn-once",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/24479184/repop_50591888_2994388820/3055870107_1b28a214bc5548db8f3e59968a55b72c/P0.jpg",
+          "path": "autumnhepola-burgundy-ballerina-flats-worn-once/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/24479184/repop_50591888_2994388821/3055870108_6de45c8f881246229bc439faae3d9f98/P0.jpg",
+          "path": "autumnhepola-burgundy-ballerina-flats-worn-once/images/image_02.jpg"
+        }
+      ]
+    },
+    {
+      "id": "em_closettt-red-patent-leather-ballet-flats",
+      "source_url": "https://www.depop.com/products/em_closettt-red-patent-leather-ballet-flats/",
+      "title": "Red patent leather ballet flats with bow detail...",
+      "description": "Red patent leather ballet flats with bow detail #balletshoes #redshoes",
+      "price": "13.00",
+      "currency": "USD",
+      "folder": "em_closettt-red-patent-leather-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/390229742/3051651387_a7b0b38995e449d691e3b9201dad25ef/P0.jpg",
+          "path": "em_closettt-red-patent-leather-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/390229742/3051651390_f46c03d8e5bc49829ca60e79a0120010/P0.jpg",
+          "path": "em_closettt-red-patent-leather-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/390229742/3051651388_ea0601d89bf1402c835afda617c99928/P0.jpg",
+          "path": "em_closettt-red-patent-leather-ballet-flats/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/390229742/3051651389_6fdae9c4c614485c8cec6947a92dddae/P0.jpg",
+          "path": "em_closettt-red-patent-leather-ballet-flats/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ppongo-red-mary-janes-size-5",
+      "source_url": "https://www.depop.com/products/ppongo-red-mary-janes-size-5/",
+      "title": "red mary janes, size 5. fits true to size. really...",
+      "description": "red mary janes, size 5. fits true to size. really cute, it just doesnt get enough wear :(",
+      "price": "15.00",
+      "currency": "USD",
+      "folder": "ppongo-red-mary-janes-size-5",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/7183684/3051514607_a8067e8bbe5840d89b59039bdae99592/P0.jpg",
+          "path": "ppongo-red-mary-janes-size-5/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/7183684/3051514608_9fe9292cabed4d46af95edb668b6ec7e/P0.jpg",
+          "path": "ppongo-red-mary-janes-size-5/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/7183684/3051514610_8e636b0c48674069a64a8e84b6b244f7/P0.jpg",
+          "path": "ppongo-red-mary-janes-size-5/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/7183684/3051514609_c561a02db5e247ae91bbb2eefcc38bb6/P0.jpg",
+          "path": "ppongo-red-mary-janes-size-5/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "meshesoftheevening-gorgeous-red-leather-ballet-flats",
+      "source_url": "https://www.depop.com/products/meshesoftheevening-gorgeous-red-leather-ballet-flats/",
+      "title": "Gorgeous red leather ballet flats with some height...",
+      "description": "Gorgeous red leather ballet flats with some height #vintage #y2k\nI’m a size 8 and my heel keeps slipping out, so best fits size 8.5 for a secure fit\nBundle for discount!!!",
+      "price": "22.00",
+      "currency": "USD",
+      "folder": "meshesoftheevening-gorgeous-red-leather-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503777_e4ccf185cff149599aa3d69741b465b4/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503780_6b6d19f50d1647e8825c4f6ee9dffed9/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503782_d754e1bb1b604b1981ae727eea462f7a/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503786_924457c767eb4932a3695d43c40b142f/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503784_2fca88709c984992ad3d70b6e254ed81/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/49495518/3049503785_d42e2f3ca15b4d03b6ec1067b2301fec/P0.jpg",
+          "path": "meshesoftheevening-gorgeous-red-leather-ballet-flats/images/image_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bellapiazzaaa-bowknot-decor-square-toe-ballet",
+      "source_url": "https://www.depop.com/products/bellapiazzaaa-bowknot-decor-square-toe-ballet/",
+      "title": "BOWKNOT DECOR SQUARE TOE BALLET MARY JANE...",
+      "description": "BOWKNOT DECOR SQUARE TOE BALLET MARY JANE FLATS\n\nSize: 38",
+      "price": "20.00",
+      "currency": "USD",
+      "folder": "bellapiazzaaa-bowknot-decor-square-toe-ballet",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073965_09078d83ffe94c8bb084d4e89d2d042f/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073964_59cead17ebb64da2a9fd9add8f592081/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073969_24bffb20bad54cfdb6155b92b1f0e3a5/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073966_f6967dc4366b4f73b1916d2b42dc07d0/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073967_17e38a9a83b04eb3b1905ab4a7636b81/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/234298185/3055073968_4ed4a778c3964ce9a042723943c37032/P0.jpg",
+          "path": "bellapiazzaaa-bowknot-decor-square-toe-ballet/images/image_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ryliesclosetx-red-ballet-flats-perfect-for",
+      "source_url": "https://www.depop.com/products/ryliesclosetx-red-ballet-flats-perfect-for/",
+      "title": "red ballet flats- perfect for a dorothy halloween...",
+      "description": "red ballet flats- perfect for a dorothy halloween costume\nbrand new \nSize 7\npurchased on amazon",
+      "price": "20.00",
+      "currency": "USD",
+      "folder": "ryliesclosetx-red-ballet-flats-perfect-for",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/45234080/3057726470_6377e68c0bf048a9b4c5e0bfaaad76aa/P0.jpg",
+          "path": "ryliesclosetx-red-ballet-flats-perfect-for/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/45234080/3057726996_efd727497ff047bca318ab433c7fb0f9/P0.jpg",
+          "path": "ryliesclosetx-red-ballet-flats-perfect-for/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/45234080/3057727334_c1474467800247bbbf7c9a1dbdec8b58/P0.jpg",
+          "path": "ryliesclosetx-red-ballet-flats-perfect-for/images/image_03.jpg"
+        }
+      ]
+    },
+    {
+      "id": "babysuki222-burgun-ballerina-size-37-us",
+      "source_url": "https://www.depop.com/products/babysuki222-burgun-ballerina-size-37-us/",
+      "title": "Burgun ballerina \nSize 37, us 6.5",
+      "description": "Burgun ballerina \nSize 37, us 6.5",
+      "price": "12.00",
+      "currency": "USD",
+      "folder": "babysuki222-burgun-ballerina-size-37-us",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/443769683/3048678784_af1cfb17570040f98c74fb8a308b4d43/P0.jpg",
+          "path": "babysuki222-burgun-ballerina-size-37-us/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/443769683/3048678780_291dcce88bbc413e9158098b3862fff0/P0.jpg",
+          "path": "babysuki222-burgun-ballerina-size-37-us/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/443769683/3048678781_1de6be9b96da405ba4d48b73d73ba2d9/P0.jpg",
+          "path": "babysuki222-burgun-ballerina-size-37-us/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/443769683/3048678782_ea20357a015649349595b95005a29297/P0.jpg",
+          "path": "babysuki222-burgun-ballerina-size-37-us/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/443769683/3048678783_817fc9fbee714e9a88b6d7811f2ef5b2/P0.jpg",
+          "path": "babysuki222-burgun-ballerina-size-37-us/images/image_05.jpg"
+        }
+      ]
+    },
+    {
+      "id": "angiearm2000-hm-red-satin-ballet-flats",
+      "source_url": "https://www.depop.com/products/angiearm2000-hm-red-satin-ballet-flats/",
+      "title": "H&amp;M red satin ballet flats with a bow #balletcore...",
+      "description": "H&amp;M red satin ballet flats with a bow #balletcore size 39 (8.5 women’s)",
+      "price": "18.00",
+      "currency": "USD",
+      "folder": "angiearm2000-hm-red-satin-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/23780537/3055660363_d4f834fc6676443189b5de02bec0adf5/P0.jpg",
+          "path": "angiearm2000-hm-red-satin-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/23780537/3055660366_6dc6498030e44fcfa5f4b92b343a01e4/P0.jpg",
+          "path": "angiearm2000-hm-red-satin-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/23780537/3055660364_4e31d60977524165adb45ff73134e697/P0.jpg",
+          "path": "angiearm2000-hm-red-satin-ballet-flats/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/23780537/3055660365_2944de039bdf405794538c6fb0559b5f/P0.jpg",
+          "path": "angiearm2000-hm-red-satin-ballet-flats/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tcarn-pink-leather-bow-loafers-preppy",
+      "source_url": "https://www.depop.com/products/tcarn-pink-leather-bow-loafers-preppy/",
+      "title": "Pink leather bow loafers #preppy #glam",
+      "description": "Pink leather bow loafers #preppy #glam",
+      "price": "22.00",
+      "currency": "USD",
+      "folder": "tcarn-pink-leather-bow-loafers-preppy",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/38494737/3055416313_023fc612bb7a44b9aed93bfef1625713/P0.jpg",
+          "path": "tcarn-pink-leather-bow-loafers-preppy/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/38494737/3055416314_152472bd22764a0e99d20c9ecc320177/P0.jpg",
+          "path": "tcarn-pink-leather-bow-loafers-preppy/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/38494737/3055416315_6acc370ea563438aafb04bab5d3dfbe7/P0.jpg",
+          "path": "tcarn-pink-leather-bow-loafers-preppy/images/image_03.jpg"
+        }
+      ]
+    },
+    {
+      "id": "evelyninc-coquette-gloss-red-ballet-flats",
+      "source_url": "https://www.depop.com/products/evelyninc-coquette-gloss-red-ballet-flats/",
+      "title": "Coquette Gloss red Ballet flats🎀🩰\nSize-W7\nworn only...",
+      "description": "Coquette Gloss red Ballet flats🎀🩰\nSize-W7\nworn only once\nsuper adorable no flaws they're super cute \n\n\n\n\n#coquette #vintage #brandymelville #balletflats #balerinna",
+      "price": "60.00",
+      "currency": "USD",
+      "folder": "evelyninc-coquette-gloss-red-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061873_9ef63115acfd4b88bf2d37fc137c344f/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061871_1a4e3cf1c276476296bd62894b0a3aa1/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061872_f43cee1a160a4627bb6f1d792e16d9c8/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061874_fb1e868e12364b8190f85a5bdf3650f2/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061876_8c60b731f80149ebae4aa026df0ebf2e/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/41699955/2996061875_59dfbd59f43448f5be9cce55c8894797/P0.jpg",
+          "path": "evelyninc-coquette-gloss-red-ballet-flats/images/image_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "closet_ps-cutest-red-ballet-flats-from",
+      "source_url": "https://www.depop.com/products/closet_ps-cutest-red-ballet-flats-from/",
+      "title": "Cutest red ballet flats from Ecco! Gently worn, just...",
+      "description": "Cutest red ballet flats from Ecco! Gently worn, just too big on me :/ size 6.5/7 \n\n#ecco #red #flats #y2k #vintage",
+      "price": "33.00",
+      "currency": "USD",
+      "folder": "closet_ps-cutest-red-ballet-flats-from",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782466_57e04eed625e44b1b166843ca08840d7/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782467_984304ad59fe491f903e2294dfd7b244/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782469_839cf2de2a634445ae5c480b42cb21ea/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782468_e1bb007602704ddebcebb605b7fb51ec/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782472_032c7047df6545649bab2bcc6e574802/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782471_37af477c51fb465487982646791d3156/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_06.jpg"
+        },
+        {
+          "filename": "image_07.jpg",
+          "url": "https://media-photos.depop.com/b1/25929190/3045782470_2ad62a44e8db455d9fabe5146a640e93/P0.jpg",
+          "path": "closet_ps-cutest-red-ballet-flats-from/images/image_07.jpg"
+        }
+      ]
+    },
+    {
+      "id": "wishlist99-red-wild-diva-ballet-flats",
+      "source_url": "https://www.depop.com/products/wishlist99-red-wild-diva-ballet-flats/",
+      "title": "Red Wild Diva ballet flats with bows #balletshoes",
+      "description": "Red Wild Diva ballet flats with bows #balletshoes",
+      "price": "11.00",
+      "currency": "USD",
+      "folder": "wishlist99-red-wild-diva-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/36997514/3024699640_a0bcd02457fc4877bd5709dad9e3dbf4/P0.jpg",
+          "path": "wishlist99-red-wild-diva-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/36997514/3024699641_3d1fbdcb0df14bda9f14f977181bf533/P0.jpg",
+          "path": "wishlist99-red-wild-diva-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/36997514/3024699645_d7757c4d3dd04ff499bd918f6fb3f6d4/P0.jpg",
+          "path": "wishlist99-red-wild-diva-ballet-flats/images/image_03.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mbradford12-journee-collection-womens-vika-casual",
+      "source_url": "https://www.depop.com/products/mbradford12-journee-collection-womens-vika-casual/",
+      "title": "JOURNEE COLLECTION WOMEN'S VIKA Casual Ballet flats...",
+      "description": "JOURNEE COLLECTION WOMEN'S VIKA Casual Ballet flats Shoes  Red Sz.9\n\nThe Journee Collection Women's Vika Casual Ballet Flats in red, size 9, are a stylish and comfortable option for everyday wear. With a solid pattern, round toe shape, slip-on closure, and faux leather lining, these flats are perfect for casual outings, workwear, or travel. The durable rubber outsole and faux leather upper material ensure long-lasting quality, while the standard shoe width provides all-day comfort. These versatile flats are a great addition to any woman's shoe collection, suitable for summer, fall, and spring seasons.",
+      "price": "30.00",
+      "currency": "USD",
+      "folder": "mbradford12-journee-collection-womens-vika-casual",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222697_a8870db7fb154a09a305459b6e3d2b52/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222703_ab02fe858c31489c8a1721339d18f981/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222701_7c204274dc094344868a0d11678ca9af/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222702_8499057e60d34dd2800308ca5a89466d/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222695_b64a6331caf849f286419529c5b74235/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222696_7c421c2139df47e2af70c1ec640e1236/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_06.jpg"
+        },
+        {
+          "filename": "image_07.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222700_39caf31f74a84f8895d166e7793e8302/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_07.jpg"
+        },
+        {
+          "filename": "image_08.jpg",
+          "url": "https://media-photos.depop.com/b1/344029244/3025222699_bb54edbc56e24a3483a4b3ca6e64ed3b/P0.jpg",
+          "path": "mbradford12-journee-collection-womens-vika-casual/images/image_08.jpg"
+        }
+      ]
+    },
+    {
+      "id": "icyy13-red-and-white-star-pattern",
+      "source_url": "https://www.depop.com/products/icyy13-red-and-white-star-pattern/",
+      "title": "red and white star pattern ballet flat sandals with...",
+      "description": "red and white star pattern ballet flat sandals with a bow\ngreat condition just a little dusty, need to be cleaned\n#balletflats #twee #sandals #vintage",
+      "price": "15.00",
+      "currency": "USD",
+      "folder": "icyy13-red-and-white-star-pattern",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/48383691/2952695661_7470213ba399419090b7a89eac203f78/P0.jpg",
+          "path": "icyy13-red-and-white-star-pattern/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/48383691/2952695662_3b0e3674fdaf45ecbc5338ecda463d5c/P0.jpg",
+          "path": "icyy13-red-and-white-star-pattern/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/48383691/2952695663_115252549ee14e29b9289b86ba69abcc/P0.jpg",
+          "path": "icyy13-red-and-white-star-pattern/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/48383691/2952695665_acea8949ddf044b19c314eeeec5deda5/P0.jpg",
+          "path": "icyy13-red-and-white-star-pattern/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/48383691/2952695664_7508c1837f3c45e4b7266875eb470a97/P0.jpg",
+          "path": "icyy13-red-and-white-star-pattern/images/image_05.jpg"
+        }
+      ]
+    },
+    {
+      "id": "jaylaj123-dark-red-pointy-flats-super",
+      "source_url": "https://www.depop.com/products/jaylaj123-dark-red-pointy-flats-super/",
+      "title": "Dark red pointy flats super cute for fall or a night...",
+      "description": "Dark red pointy flats super cute for fall or a night out. Never worn and still in box. \nSize 40 EUR - Size 9 US they fit like an 8 I am a size 8. \nOpen to offers",
+      "price": "30.00",
+      "currency": "USD",
+      "folder": "jaylaj123-dark-red-pointy-flats-super",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/28269077/2745046477_e8655edef15144e5b5bcac5ca9e3381a/P0.jpg",
+          "path": "jaylaj123-dark-red-pointy-flats-super/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/28269077/2745046478_b6b4d4094a764b4f8db4c9fb6dac326e/P0.jpg",
+          "path": "jaylaj123-dark-red-pointy-flats-super/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/28269077/2745046479_093659dd3af94b91bbde14cb43c334c1/P0.jpg",
+          "path": "jaylaj123-dark-red-pointy-flats-super/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/28269077/2745046480_591c4839d52544cc99ad5a1d98e82185/P0.jpg",
+          "path": "jaylaj123-dark-red-pointy-flats-super/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hazelhc7-red-ballet-pumps-with-bow",
+      "source_url": "https://www.depop.com/products/hazelhc7-red-ballet-pumps-with-bow/",
+      "title": "Red ballet pumps with bow\nFits size 5...",
+      "description": "Red ballet pumps with bow\nFits size 5 perfectly\nSmall scuff shown in last photo, barely noticeable",
+      "price": "20.00",
+      "currency": "USD",
+      "folder": "hazelhc7-red-ballet-pumps-with-bow",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/14162887/2871709826_6adecc3bd012477198fb45d73ec7ff4b/P0.jpg",
+          "path": "hazelhc7-red-ballet-pumps-with-bow/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/14162887/2871710038_84e050cf522b4904aee84291fa2ffb7b/P0.jpg",
+          "path": "hazelhc7-red-ballet-pumps-with-bow/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/14162887/2871713877_c54df4b89af44c4aac800fca2e09ac80/P0.jpg",
+          "path": "hazelhc7-red-ballet-pumps-with-bow/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/14162887/2871714634_d4f8c9fe116f4d1a89f8b728e08e7686/P0.jpg",
+          "path": "hazelhc7-red-ballet-pumps-with-bow/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "migdaliacmp-used-shoes-in-excellent-condition",
+      "source_url": "https://www.depop.com/products/migdaliacmp-used-shoes-in-excellent-condition/",
+      "title": "used shoes in excellent condition",
+      "description": "used shoes in excellent condition",
+      "price": "20.00",
+      "currency": "USD",
+      "folder": "migdaliacmp-used-shoes-in-excellent-condition",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001522_8b5cb2027078469da87d17533446530a/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001524_1602a0eaa19b40dfb20e524b1aebf261/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001523_3ce022d694804db7a0e508ec79e1e13f/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001526_759bee99e02345cab91ef6bfbac4f397/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001525_9f60a01f515e455fa3247d15d56a3519/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001527_7c1637dd433c4dfc881cc5fbea14c0b6/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_06.jpg"
+        },
+        {
+          "filename": "image_07.jpg",
+          "url": "https://media-photos.depop.com/b1/462729088/2999001528_5f96941283794e06b48621a94dde1992/P0.jpg",
+          "path": "migdaliacmp-used-shoes-in-excellent-condition/images/image_07.jpg"
+        }
+      ]
+    },
+    {
+      "id": "iatecookie-burgundy-patent-leather-mary-jane",
+      "source_url": "https://www.depop.com/products/iatecookie-burgundy-patent-leather-mary-jane/",
+      "title": "Burgundy patent leather Mary Jane shoes with bow...",
+      "description": "Burgundy patent leather Mary Jane shoes with bow detail has minor scratches just needs a good clean!!  SIZE 38 #goth #boho #balletflats #maryjanes #coquette",
+      "price": "10.50",
+      "currency": "USD",
+      "folder": "iatecookie-burgundy-patent-leather-mary-jane",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/41048813/3040912408_26e9cb45b5d340b9a932d8b31e8f547b/P0.jpg",
+          "path": "iatecookie-burgundy-patent-leather-mary-jane/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/41048813/3040912407_e4824f34d69b4b43aec411379a63bc86/P0.jpg",
+          "path": "iatecookie-burgundy-patent-leather-mary-jane/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/41048813/3040912413_7c1d9a0077b64eb3a32bc55e22c79f10/P0.jpg",
+          "path": "iatecookie-burgundy-patent-leather-mary-jane/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/41048813/3045997622_edbb1511509349e7b54635a85793d0e4/P0.jpg",
+          "path": "iatecookie-burgundy-patent-leather-mary-jane/images/image_04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "starliii_shop-y2k-keds-cherry-ballet-flats",
+      "source_url": "https://www.depop.com/products/starliii_shop-y2k-keds-cherry-ballet-flats/",
+      "title": "Y2K Keds Cherry Ballet Flats Slip Ons with Bow \n\n-...",
+      "description": "Y2K Keds Cherry Ballet Flats Slip Ons with Bow \n\n- Size 10\n- Length: 10.5”\n\n#cherries #fruit #flats #y2k #retro",
+      "price": "18.50",
+      "currency": "USD",
+      "folder": "starliii_shop-y2k-keds-cherry-ballet-flats",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015384376_58e5025f3708453a992affa6329c993e/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015384378_eae2c1c932eb459ebd9bb31284cda625/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015387172_d2f4404d62294679b3e2df95195a70ba/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015387171_51fb08f61b884036a82f0fae90f64819/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015387170_7aa0b1d1c63c464e8038350b4d3c6e67/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/b1/19506455/3015387169_af42349e6fce4b8884a8baf0beb1fcb1/P0.jpg",
+          "path": "starliii_shop-y2k-keds-cherry-ballet-flats/images/image_06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "queenzdom-red-suede-bow-flats-has",
+      "source_url": "https://www.depop.com/products/queenzdom-red-suede-bow-flats-has/",
+      "title": "red suede bow flats \nhas a lot of tearing on the...",
+      "description": "red suede bow flats \nhas a lot of tearing on the inside, flaws shown in pics!! \nunsure of size :( pls dm for any measurements!\n\n#flats #balletflats #vintage #2000s #coquette",
+      "price": "11.00",
+      "currency": "USD",
+      "folder": "queenzdom-red-suede-bow-flats-has",
+      "images": [
+        {
+          "filename": "image_01.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257036_43a1d30b849e4251b855a0d83986283a/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_01.jpg"
+        },
+        {
+          "filename": "image_02.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257033_9ba17849add94781b4da479818e38496/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_02.jpg"
+        },
+        {
+          "filename": "image_03.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257034_73fc2ca6c0bc4d0d92199e54b8400767/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_03.jpg"
+        },
+        {
+          "filename": "image_04.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257037_63aaba7fe8af4d90b70a9aeb3886115a/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_04.jpg"
+        },
+        {
+          "filename": "image_05.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257035_e8edf68bea1645ddb5a33453e9b995d0/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_05.jpg"
+        },
+        {
+          "filename": "image_06.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257038_6c1083c9e6c64d8e81e4fce51bb60e50/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_06.jpg"
+        },
+        {
+          "filename": "image_07.jpg",
+          "url": "https://media-photos.depop.com/r1/465837307/2847257039_7c24572d8f8540b3a075bd372b58d65f/P0.jpg",
+          "path": "queenzdom-red-suede-bow-flats-has/images/image_07.jpg"
+        }
+      ]
+    }
+  ]
+}
